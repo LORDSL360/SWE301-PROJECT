@@ -21,7 +21,7 @@ A centralized scouting platform that enables clubs and scouts to easily discover
 
 
 ***4.2  Problems and Users***
-
+-
 
 Scouting football talent across different leagues today is still a messy and disconnected process. Clubs and independent scouts rely on a mix of scattered video clips, manual notes and spreadsheets to track players. Analysts spend hours jumping between different sources just to gather basic match stats and physical data. Because everyone uses different formats to rate players, reports end up being subjective and hard to compare. This slow and fragmented setup often causes communication delays, missed talent in lower divisions and bad transfer decisions that waste club budget
 this issue affects three main groups:
