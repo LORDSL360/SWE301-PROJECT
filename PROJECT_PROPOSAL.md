@@ -1,4 +1,4 @@
-4.1 Team Informantion
+***4.1 Team Informantion***
 
 Project Title : Global Football Scouting & Analytics Platform
 
@@ -18,7 +18,7 @@ A centralized scouting platform that enables clubs and scouts to easily discover
 
 
 
-4.2  Problems and Users
+***4.2  Problems and Users***
 
 
 Scouting football talent across different leagues today is still a messy and disconnected process. Clubs and independent scouts rely on a mix of scattered video clips, manual notes and spreadsheets to track players. Analysts spend hours jumping between different sources just to gather basic match stats and physical data. Because everyone uses different formats to rate players, reports end up being subjective and hard to compare. This slow and fragmented setup often causes communication delays, missed talent in lower divisions and bad transfer decisions that waste club budget
@@ -29,7 +29,7 @@ this issue affects three main groups:
 
 
 
-4.3 Existing Solutions
+***4.3 Existing Solutions***
 
 
 
@@ -55,7 +55,7 @@ this issue affects three main groups:
 After comparing these options, we noticed two main issues: existing platforms either way too expensive for smaller clubs or they focus heavily on match analysis instead of scouting new talent. Our platform fills this gap by combining easy to use scouting on match analysis forms with simple visual charts(like radar graphs) so club can quickly compare players and make practical recruitment choices without breaking their budget.
 
 
-4.4 Proposed Solution and Justification
+***4.4 Proposed Solution and Justification***
 
 
 Our proposed solution is a centralized web platform built to make football recruitment simpler, faster, and more organized. The system allows Talent Scouts to fill out clean, standardized report forms, while Technical Directors & Club Decision-Makers can search, filter, and compare player stats using visual radar charts.
@@ -73,7 +73,7 @@ Reused Libraries and Components: To speed up development and avoid recreating st
 
 
 
-4.5 Scope and Workflows
+***4.5 Scope and Workflows***
 
 System Scope
 
@@ -124,7 +124,7 @@ Expected outcome: The system displays a side-by-side radar chart highlighting th
 
 
 
-### 4.6 Initial Requirements
+***4.6 Initial Requirements***
 
 #### Functional Requirements
 
@@ -150,7 +150,7 @@ Expected outcome: The system displays a side-by-side radar chart highlighting th
 
 ---
 
-### 4.7 Development Approach
+***4.7 Development Approach***
 
 [شرح المنهجية المختارة في فقرة أو فقرتين - مثل Agile أو Hybrid].
 
@@ -160,7 +160,7 @@ How we use GitHub for collaboration:
 
 ---
 
-### 4.8 Team Plan and Risks
+***4.8 Team Plan and Risks***
 
 #### Team Coordinator Roles
 * **Process and Project Coordinator:** [اسم الطالب] - [شرح مختصر للمسؤوليات وقيادة الـ GitHub Workflow].
@@ -187,7 +187,7 @@ How we use GitHub for collaboration:
 
 ---
 
-### 4.9 Sources, AI Use, and Contributions
+***4.9 Sources, AI Use, and Contributions***
 
 #### Sources & References
 1. [المصدر الأول - اسم المنصة أو الكتاب الرابط]
