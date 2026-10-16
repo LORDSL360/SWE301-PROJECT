@@ -1,20 +1,21 @@
+***
 ***4.1 Team Informantion***
 -
 
-Project Title : Global Football Scouting & Analytics Platform
+***Project Title : Global Football Scouting & Analytics Platform***
 
-Group letter : F
+***Group letter : F***
 
 
-Project members :
+***Project members :***
 1- Salman Yaqoub Yousef   , 2231153411 
 2- Saad Khaled Saad       , 2231162401
 3- Fahad Ahmad Almutairi  , 2231126794
 
-GitHub repository URL : https://github.com/LORDSL360/SWE301-PROJECT/
+***GitHub repository URL :*** https://github.com/LORDSL360/SWE301-PROJECT/
 
 
-One sentence project summary:
+***One sentence project summary:***
 A centralized scouting platform that enables clubs and scouts to easily discover and compare players worldwide through data driven insights
 
 
@@ -37,7 +38,7 @@ this issue affects three main groups:
 ( 1 ) Current process: Manual spreadsheets & Messaging
 
 1. Useful features : low cost, familiar to traditional scouts and flexible free text notes.
-2. Limitation for your Users : Disjointed data, lack of visual comparisons, high risk of duplicate report, no standardized metric scaling
+***2. Limitation for your Users :*** Disjointed data, lack of visual comparisons, high risk of duplicate report, no standardized metric scaling
 3. Source : Field Interviews & Industry observation
 
 
@@ -208,6 +209,10 @@ How we use GitHub for collaboration:
 * **Verification and Revision:** [شرح كيف قام الفريق بمراجعة وتعديل المخرجات والتأكد من صحتها]
 
 #### GitHub Team Contributions
+
+
 * **[اسم الطالب الأول]:** [توضيح المساهمات الفعلية والـ Commits التي قام بها في المستودع]
-* **[اسم الطالب الثاني]:** [توضيح المساهمات الفعلية والـ Commits التي قام بها في المستودع]
+* **[اسم الطالب الثاني[توضيح المساهمات الفعلية والـ Commits التي قام بها في المستودع]
 * **[اسم الطالب الثالث]:** [توضيح المساهمات الفعلية والـ Commits التي قام بها في المستودع]
+
+***
