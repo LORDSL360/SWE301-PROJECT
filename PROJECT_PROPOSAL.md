@@ -35,24 +35,24 @@ this issue affects three main groups:
 -
 
 
-( 1 ) Current process: Manual spreadsheets & Messaging
+***( 1 ) Current process:*** Manual spreadsheets & Messaging
 
-1. Useful features : low cost, familiar to traditional scouts and flexible free text notes.
+***1. Useful features :*** low cost, familiar to traditional scouts and flexible free text notes.
 ***2. Limitation for your Users :*** Disjointed data, lack of visual comparisons, high risk of duplicate report, no standardized metric scaling
-3. Source : Field Interviews & Industry observation
+***3. Source :*** Field Interviews & Industry observation
 
 
-( 2 ) Existing Solution 1: Wyscout
+***( 2 ) Existing Solution 1:*** Wyscout
 
-1. Useful features : Massive global video database, comprehensive player statistical coverage. 
-2. Limitation for your Users : High subscription cost for lower tier and regional clubs, complex interface and lacks customized internal club report workflows
-3. Source : https://wyscout.com/
+***1. Useful features :*** Massive global video database, comprehensive player statistical coverage. 
+***2. Limitation for your Users :*** High subscription cost for lower tier and regional clubs, complex interface and lacks customized internal club report workflows
+***3. Source :*** https://wyscout.com/
 
-( 3 ) Existing Solution 2: BePro Football
+***( 3 ) Existing Solution 2:*** BePro Football
 
-1. Useful features : High-quality tactical match video processing and automated event tracking.
-2. Limitation for your Users : focused primarily on team's own match analysis rather than global player scouting and cross league recruitment.
-3. Source : https://www.google.com/search?q=https://www.beproscore.com
+***1. Useful features :*** High-quality tactical match video processing and automated event tracking.
+***2. Limitation for your Users :*** focused primarily on team's own match analysis rather than global player scouting and cross league recruitment.
+***3. Source :*** https://www.google.com/search?q=https://www.beproscore.com
 
 After comparing these options, we noticed two main issues: existing platforms either way too expensive for smaller clubs or they focus heavily on match analysis instead of scouting new talent. Our platform fills this gap by combining easy to use scouting on match analysis forms with simple visual charts(like radar graphs) so club can quickly compare players and make practical recruitment choices without breaking their budget.
 
@@ -64,13 +64,13 @@ Our proposed solution is a centralized web platform built to make football recru
 
 This system directly fixes the issues found in current processes and market tools:
 
-Improving the Current Process: Instead of relying on loose spreadsheets and scattered video links, our platform keeps everything in a single database. This makes player data searchable in seconds, uses a clear 1–10 rating scale, and keeps a clean history of all scouting reports.
+***Improving the Current Process:*** Instead of relying on loose spreadsheets and scattered video links, our platform keeps everything in a single database. This makes player data searchable in seconds, uses a clear 1–10 rating scale, and keeps a clean history of all scouting reports.
 
-Fixing Market Limitations: High-end platforms like Wyscout are often too expensive and full of complex features that smaller clubs do not need. Our platform offers an affordable, easy-to-use alternative that focuses strictly on talent comparison and recruitment choices.
+***Fixing Market Limitations:*** High-end platforms like Wyscout are often too expensive and full of complex features that smaller clubs do not need. Our platform offers an affordable, easy-to-use alternative that focuses strictly on talent comparison and recruitment choices.
 
-Feasibility for a 3-Student Team: Building a massive live video platform in one semester is impossible for three students. To keep the workload realistic, our prototype will use structured mock datasets (PostgreSQL/JSON) and open-source chart components. This allows our team to focus entirely on perfecting the core workflows: entering scout reports, filtering players, and displaying side-by-side radar charts.
+***Feasibility for a 3-Student Team:*** Building a massive live video platform in one semester is impossible for three students. To keep the workload realistic, our prototype will use structured mock datasets (PostgreSQL/JSON) and open-source chart components. This allows our team to focus entirely on perfecting the core workflows: entering scout reports, filtering players, and displaying side-by-side radar charts.
 
-Reused Libraries and Components: To speed up development and avoid recreating standard UI elements, we will use React and Tailwind CSS for the front-end, Chart.js (or Recharts) for rendering radar visual graphs, and Node.js with Express for building our backend APIs.
+***Reused Libraries and Components:*** To speed up development and avoid recreating standard UI elements, we will use React and Tailwind CSS for the front-end, Chart.js (or Recharts) for rendering radar visual graphs, and Node.js with Express for building our backend APIs.
 
 
 
@@ -78,11 +78,11 @@ Reused Libraries and Components: To speed up development and avoid recreating st
 ***4.5 Scope and Workflows***
 -
 
-System Scope
+***System Scope***
 
-1. In Scope (Semester Prototype)
+***1. In Scope (Semester Prototype)***
 
-What the semester prototype will include:
+***What the semester prototype will include:***
 
 •  Authentication and role-based access control (Scout, Analyst, Club Director, Admin).
 • Standardized scout reporting form and review interface.
@@ -91,7 +91,7 @@ What the semester prototype will include:
 • Simulated database using PostgreSQL.
 
 
-2. Out of scope (future releases)
+***2. Out of scope (future releases)***
 
 • What the team will not attempt this semester:
 • Live video upload, streaming, and AI video tracking.
@@ -100,27 +100,27 @@ What the semester prototype will include:
 
 
 
-  3. End-to-end Workflows:
+  ***3. End-to-end Workflows:***
 
-Workflow 1: Search for an emerging player
+***Workflow 1:*** Search for an emerging player
 
-Main actor and goal: Talent Scout: Searches for a young emerging player (under 21) whose metrics indicate a "A rising talent" status.
+***Main actor and goal:*** Talent Scout: Searches for a young emerging player (under 21) whose metrics indicate a "A rising talent" status.
 
-Expected outcome: A filtered list of promising players appears with brief summary statistics.
-
-
-Workflow 2: Submit a scout report
-
-Main actor and goal: Talent Scout: Fills out a standardized field evaluation form for a specific player after performance observation.
-
-Expected outcome: The report is saved to the database and linked to the player profile for decision-makers to view instantly.
+***Expected outcome:*** A filtered list of promising players appears with brief summary statistics.
 
 
-Workflow 3: Compare players and decide
+***Workflow 2:*** Submit a scout report
 
-Main actor and goal: Club Director: Selects two emerging players to compare their attributes before recommending a transfer.
+***Main actor and goal:*** Talent Scout: Fills out a standardized field evaluation form for a specific player after performance observation.
 
-Expected outcome: The system displays a side-by-side radar chart highlighting the strengths and weaknesses of each player.
+***Expected outcome:*** The report is saved to the database and linked to the player profile for decision-makers to view instantly.
+
+
+***Workflow 3:*** Compare players and decide
+
+***Main actor and goal:*** Club Director: Selects two emerging players to compare their attributes before recommending a transfer.
+
+***Expected outcome:*** The system displays a side-by-side radar chart highlighting the strengths and weaknesses of each player.
 
 
 
