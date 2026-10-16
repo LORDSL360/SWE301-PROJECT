@@ -1,4 +1,3 @@
--
 ***4.1 Team Informantion***
 -
 
@@ -30,7 +29,7 @@ this issue affects three main groups:
 .System administrators: they need full control over the platform to verify submitted data, manage user accounts and keep everything secure
 
 
--
+
 ***4.3 Existing Solutions***
 -
 
@@ -56,7 +55,7 @@ this issue affects three main groups:
 
 After comparing these options, we noticed two main issues: existing platforms either way too expensive for smaller clubs or they focus heavily on match analysis instead of scouting new talent. Our platform fills this gap by combining easy to use scouting on match analysis forms with simple visual charts(like radar graphs) so club can quickly compare players and make practical recruitment choices without breaking their budget.
 
--
+
 ***4.4 Proposed Solution and Justification***
 -
 
@@ -74,7 +73,7 @@ Reused Libraries and Components: To speed up development and avoid recreating st
 
 
 
--
+
 ***4.5 Scope and Workflows***
 -
 
@@ -126,7 +125,7 @@ Expected outcome: The system displays a side-by-side radar chart highlighting th
 
 
 
--
+
 ***4.6 Initial Requirements***
 -
 
@@ -154,7 +153,7 @@ Expected outcome: The system displays a side-by-side radar chart highlighting th
 
 
 
--
+
 ***4.7 Development Approach***
 -
 [شرح المنهجية المختارة في فقرة أو فقرتين - مثل Agile أو Hybrid].
@@ -164,7 +163,7 @@ How we use GitHub for collaboration:
 
 
 
--
+
 ***4.8 Team Plan and Risks***
 -
 
@@ -193,7 +192,7 @@ How we use GitHub for collaboration:
 
 
 
--
+
 ***4.9 Sources, AI Use, and Contributions***
 -
 
