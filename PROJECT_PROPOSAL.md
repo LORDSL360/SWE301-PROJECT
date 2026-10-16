@@ -37,22 +37,22 @@ this issue affects three main groups:
 
 ***( 1 ) Current process:*** Manual spreadsheets & Messaging
 
-* *** Useful features :*** low cost, familiar to traditional scouts and flexible free text notes.
-* ** Limitation for your Users :*** Disjointed data, lack of visual comparisons, high risk of duplicate report, no standardized metric scaling.
-* ** Source :*** Field Interviews & Industry observation.
+*  Useful features  low cost, familiar to traditional scouts and flexible free text notes.
+*  Limitation for your Users  Disjointed data, lack of visual comparisons, high risk of duplicate report, no standardized metric scaling.
+*  Source  Field Interviews & Industry observation.
 
 
 ***( 2 ) Existing Solution 1:*** Wyscout
 
- * ***  Useful features :*** Massive global video database, comprehensive player statistical coverage. 
- * ***  Limitation for your Users :*** High subscription cost for lower tier and regional clubs, complex interface and lacks customized internal club report workflows
- * ***  Source :*** https://wyscout.com/
+ *   Useful features : Massive global video database, comprehensive player statistical coverage. 
+ *   Limitation for your Users : High subscription cost for lower tier and regional clubs, complex interface and lacks customized internal club report workflows
+ *   Source : https://wyscout.com/
 
 ***( 3 ) Existing Solution 2:*** BePro Football
 
-* ***  Useful features :*** High-quality tactical match video processing and automated event tracking.
-* ***  Limitation for your Users :*** focused primarily on team's own match analysis rather than global player scouting and cross league recruitment.
-* ***  Source :*** https://www.google.com/search?q=https://www.beproscore.com
+*   Useful features : High-quality tactical match video processing and automated event tracking.
+*   Limitation for your Users : focused primarily on team's own match analysis rather than global player scouting and cross league recruitment.
+*   Source : https://www.google.com/search?q=https://www.beproscore.com
 
 After comparing these options, we noticed two main issues: existing platforms either way too expensive for smaller clubs or they focus heavily on match analysis instead of scouting new talent. Our platform fills this gap by combining easy to use scouting on match analysis forms with simple visual charts(like radar graphs) so club can quickly compare players and make practical recruitment choices without breaking their budget.
 
