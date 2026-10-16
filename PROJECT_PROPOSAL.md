@@ -1,4 +1,6 @@
+-
 ***4.1 Team Informantion***
+-
 
 Project Title : Global Football Scouting & Analytics Platform
 
@@ -28,9 +30,9 @@ this issue affects three main groups:
 .System administrators: they need full control over the platform to verify submitted data, manage user accounts and keep everything secure
 
 
-
+-
 ***4.3 Existing Solutions***
-
+-
 
 
 ( 1 ) Current process: Manual spreadsheets & Messaging
@@ -54,9 +56,9 @@ this issue affects three main groups:
 
 After comparing these options, we noticed two main issues: existing platforms either way too expensive for smaller clubs or they focus heavily on match analysis instead of scouting new talent. Our platform fills this gap by combining easy to use scouting on match analysis forms with simple visual charts(like radar graphs) so club can quickly compare players and make practical recruitment choices without breaking their budget.
 
-
+-
 ***4.4 Proposed Solution and Justification***
-
+-
 
 Our proposed solution is a centralized web platform built to make football recruitment simpler, faster, and more organized. The system allows Talent Scouts to fill out clean, standardized report forms, while Technical Directors & Club Decision-Makers can search, filter, and compare player stats using visual radar charts.
 
@@ -72,8 +74,9 @@ Reused Libraries and Components: To speed up development and avoid recreating st
 
 
 
-
+-
 ***4.5 Scope and Workflows***
+-
 
 System Scope
 
@@ -123,8 +126,10 @@ Expected outcome: The system displays a side-by-side radar chart highlighting th
 
 
 
-
+-
 ***4.6 Initial Requirements***
+-
+
 
 #### Functional Requirements
 
@@ -148,19 +153,21 @@ Expected outcome: The system displays a side-by-side radar chart highlighting th
 | **NFR-03** | **Security** | The system shall [شرح المعيار المباشر والقابل للقياس، مثل نوع التشفير أو التوثيق]. |
 
 
----
 
+-
 ***4.7 Development Approach***
-
+-
 [شرح المنهجية المختارة في فقرة أو فقرتين - مثل Agile أو Hybrid].
 
 How we use GitHub for collaboration:
 [أكتب هنا طريقة العمل الجماعي على GitHub، مثل إنشاء الـ Branches، واستخدام الـ Pull Requests والـ Issues لتتبع المهام].
 
 
----
 
+-
 ***4.8 Team Plan and Risks***
+-
+
 
 #### Team Coordinator Roles
 * **Process and Project Coordinator:** [اسم الطالب] - [شرح مختصر للمسؤوليات وقيادة الـ GitHub Workflow].
@@ -185,9 +192,11 @@ How we use GitHub for collaboration:
 | **[المخاطرة الثالثة - مثل الأداء أو الواجهات]** | **Medium** | [الخطة المتبعة للتعامل مع الخطر] |
 
 
----
 
+-
 ***4.9 Sources, AI Use, and Contributions***
+-
+
 
 #### Sources & References
 1. [المصدر الأول - اسم المنصة أو الكتاب الرابط]
