@@ -84,19 +84,19 @@ This system directly fixes the issues found in current processes and market tool
 
 ***What the semester prototype will include:***
 
-•  Authentication and role-based access control (Scout, Analyst, Club Director, Admin).
-• Standardized scout reporting form and review interface.
-• Advanced search and filtering engine for emerging players.
-• Interactive radar charts for side-by-side player comparison.
-• Simulated database using PostgreSQL.
+ * Authentication and role-based access control (Scout, Analyst, Club Director, Admin).
+ * Standardized scout reporting form and review interface.
+ * Advanced search and filtering engine for emerging players.
+ * Interactive radar charts for side-by-side player comparison.
+ *  VSimulated database using PostgreSQL.
 
 
 ***2. Out of scope (future releases)***
 
-• What the team will not attempt this semester:
-• Live video upload, streaming, and AI video tracking.
-• Integration with real-time paid commercial football data APIs.
-• Financial contract management and direct club transfer negotiations.
+*  What the team will not attempt this semester:
+*  Live video upload, streaming, and AI video tracking.
+*  Integration with real-time paid commercial football data APIs.
+*  Financial contract management and direct club transfer negotiations.
 
 
 
