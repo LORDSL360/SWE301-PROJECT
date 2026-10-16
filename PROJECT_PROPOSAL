@@ -6,26 +6,29 @@ Group letter : F
 
 
 Project members :
-1- Salman Yaqoub Yousef , 2231153411 
-2- Saad Khaled Saad     , 2231162401
-3- Fahad Ahmad Almutairi, 2231126794
+1- Salman Yaqoub Yousef   , 2231153411 
+2- Saad Khaled Saad       , 2231162401
+3- Fahad Ahmad Almutairi  , 2231126794
 
 GitHub repository URL : https://github.com/LORDSL360/SWE301-PROJECT/
 
 
-One sentence project summary:  ملخص لفكرتنا
+One sentence project summary:
 A centralized scouting platform that enables clubs and scouts to easily discover and compare players worldwide through data driven insights
 
 
 
 4.2  Problems and Users
 
-اشرح في فقرتين أو ثلاث ليش عملية رصد اللاعبين الشباب صعبة وبطيئة حالياً، واكتب 4 أشخاص يستخدمون النظام (مثل: كشاف، محلل، مدير نادي، مشرف)
+
 Scouting football talent across different leagues today is still a messy and disconnected process. Clubs and independent scouts rely on a mix of scattered video clips, manual notes and spreadsheets to track players. Analysts spend hours jumping between different sources just to gather basic match stats and physical data. Because everyone uses different formats to rate players, reports end up being subjective and hard to compare. This slow and fragmented setup often causes communication delays, missed talent in lower divisions and bad transfer decisions that waste club budget
 this issue affects three main groups:
 .talent scouts: they need clean and structured way to write and submit match reports without dealing with multiple files and messy formats
 .Technical Directors & Club Decision-Makers: They need clear, reliable data and insights to compare target players quickly and make confident transfer choices within their budget limit
 .System administrators: they need full control over the platform to verify submitted data, manage user accounts and keep everything secure
+
+
+
 4.3 Existing Solutions
 
 
@@ -54,12 +57,6 @@ After comparing these options, we noticed two main issues: existing platforms ei
 
 4.4 Proposed Solution and Justification
 
-• ماذا سيفعل النظام.
-• من سيستخدمه.
-• كيف يحسن العملية الحالية.
-• كيف يعالج قصوراً (أو محدودية) في الحلول الحالية.
-• لماذا يمكن لثلاثة طلاب إنجاز نموذج أولي صغير خلال الفصل الدراسي.
-• أي مكتبة، أو خدمة، أو مكون، أو تطبيق حالي يمكن إعادة استخدامه.
 
 Our proposed solution is a centralized web platform built to make football recruitment simpler, faster, and more organized. The system allows Talent Scouts to fill out clean, standardized report forms, while Technical Directors & Club Decision-Makers can search, filter, and compare player stats using visual radar charts.
 
@@ -73,27 +70,59 @@ Feasibility for a 3-Student Team: Building a massive live video platform in one 
 
 Reused Libraries and Components: To speed up development and avoid recreating standard UI elements, we will use React and Tailwind CSS for the front-end, Chart.js (or Recharts) for rendering radar visual graphs, and Node.js with Express for building our backend APIs.
 
-### 4.5 Scope and Workflows
-
-#### System Scope
-
-| In Scope (Semester Prototype) | Out of Scope (Future Releases) |
-| :--- | :--- |
-| [ميزة أو نطاق مشمول في الفصل الحالي 1] | [ميزة خارج نطاق المشروع حالياً 1] |
-| [ميزة أو نطاق مشمول في الفصل الحالي 2] | [ميزة خارج نطاق المشروع حالياً 2] |
-| [ميزة أو نطاق مشمول في الفصل الحالي 3] | [ميزة خارج نطاق المشروع حالياً 3] |
-| [ميزة أو نطاق مشمول في الفصل الحالي 4] | [ميزة خارج نطاق المشروع حالياً 4] |
-
-#### End-to-End Workflows
-
-| Workflow | Main Actor and Goal | Expected Outcome |
-| :--- | :--- | :--- |
-| **1. [اسم سيناريو العمل الأول]** | **[المستخدم الرئيسي Goal]:** [شرح الهدف والعملية] | [النتيجة المتوقعة بعد اكتمال العملية] |
-| **2. [اسم سيناريو العمل الثاني]** | **[المستخدم الرئيسي Goal]:** [شرح الهدف والعملية] | [النتيجة المتوقعة بعد اكتمال العملية] |
-| **3. [اسم سيناريو العمل الثالث]** | **[المستخدم الرئيسي Goal]:** [شرح الهدف والعملية] | [النتيجة المتوقعة بعد اكتمال العملية] |
 
 
----
+
+4.5 Scope and Workflows
+
+System Scope
+
+1. In Scope (Semester Prototype)
+
+What the semester prototype will include:
+
+•  Authentication and role-based access control (Scout, Analyst, Club Director, Admin).
+• Standardized scout reporting form and review interface.
+• Advanced search and filtering engine for emerging players.
+• Interactive radar charts for side-by-side player comparison.
+• Simulated database using PostgreSQL.
+
+
+2. Out of scope (future releases)
+
+• What the team will not attempt this semester:
+• Live video upload, streaming, and AI video tracking.
+• Integration with real-time paid commercial football data APIs.
+• Financial contract management and direct club transfer negotiations.
+
+
+
+  3. End-to-end Workflows:
+
+Workflow 1: Search for an emerging player
+
+Main actor and goal: Talent Scout: Searches for a young emerging player (under 21) whose metrics indicate a "A rising talent" status.
+
+Expected outcome: A filtered list of promising players appears with brief summary statistics.
+
+
+Workflow 2: Submit a scout report
+
+Main actor and goal: Talent Scout: Fills out a standardized field evaluation form for a specific player after performance observation.
+
+Expected outcome: The report is saved to the database and linked to the player profile for decision-makers to view instantly.
+
+
+Workflow 3: Compare players and decide
+
+Main actor and goal: Club Director: Selects two emerging players to compare their attributes before recommending a transfer.
+
+Expected outcome: The system displays a side-by-side radar chart highlighting the strengths and weaknesses of each player.
+
+
+
+
+
 
 ### 4.6 Initial Requirements
 
