@@ -103,21 +103,21 @@ This system directly fixes the issues found in current processes and market tool
   ***3. End-to-end Workflows:***
 
 ***Workflow 1:*** Search for an emerging player
-
+-
 ***Main actor and goal:*** Talent Scout: Searches for a young emerging player (under 21) whose metrics indicate a "A rising talent" status.
 
 ***Expected outcome:*** A filtered list of promising players appears with brief summary statistics.
 
 
 ***Workflow 2:*** Submit a scout report
-
+-
 ***Main actor and goal:*** Talent Scout: Fills out a standardized field evaluation form for a specific player after performance observation.
 
 ***Expected outcome:*** The report is saved to the database and linked to the player profile for decision-makers to view instantly.
 
 
 ***Workflow 3:*** Compare players and decide
-
+-
 ***Main actor and goal:*** Club Director: Selects two emerging players to compare their attributes before recommending a transfer.
 
 ***Expected outcome:*** The system displays a side-by-side radar chart highlighting the strengths and weaknesses of each player.
