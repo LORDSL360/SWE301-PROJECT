@@ -37,9 +37,9 @@ this issue affects three main groups:
 
 ***( 1 ) Current process:*** Manual spreadsheets & Messaging
 
-• ***•  Useful features :*** low cost, familiar to traditional scouts and flexible free text notes.
-• ***•  Limitation for your Users :*** Disjointed data, lack of visual comparisons, high risk of duplicate report, no standardized metric scaling
-• ***•  Source :*** Field Interviews & Industry observation
+***•  Useful features :*** low cost, familiar to traditional scouts and flexible free text notes.
+***•  Limitation for your Users :*** Disjointed data, lack of visual comparisons, high risk of duplicate report, no standardized metric scaling.
+***•  Source :*** Field Interviews & Industry observation.
 
 
 ***( 2 ) Existing Solution 1:*** Wyscout
