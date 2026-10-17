@@ -135,84 +135,86 @@ This system directly fixes the issues found in current processes and market tool
 
 | ID | Functional Requirement | Priority |
 | :--- | :--- | :--- |
-| **FR-01** | The system shall allow [المستخدم] to [الوظيفة أو السلوك المطلوب]. | **Must** |
-| **FR-02** | The system shall allow [المستخدم] to [الوظيفة أو السلوك المطلوب]. | **Must** |
-| **FR-03** | The system shall allow [المستخدم] to [الوظيفة أو السلوك المطلوب]. | **Must** |
-| **FR-04** | The system shall allow [المستخدم] to [الوظيفة أو السلوك المطلوب]. | **Must** |
-| **FR-05** | The system shall allow [المستخدم] to [الوظيفة أو السلوك المطلوب]. | **Must** |
-| **FR-06** | The system shall allow [المستخدم] to [الوظيفة أو السلوك المطلوب]. | **Should** |
-| **FR-07** | The system shall allow [المستخدم] to [الوظيفة أو السلوك المطلوب]. | **Should** |
-| **FR-08** | The system shall allow [المستخدم] to [الوظيفة أو السلوك المطلوب]. | **Could** |
+| **FR-01** | The system shall allow registered users to log in using their username , password]. | **Must** |
+| **FR-02** | The system shall allow Talent Scouts to submit player evaluation reports using a standardized 1–10 rating scale]. | **Must** |
+| **FR-03** | The system shall allow Talent Scouts to search and filter players by age, position, performance statistics]. | **Must** |
+| **FR-04** |The system shall allow Club Directors to view player profiles , scouting reports]. | **Must** |
+| **FR-05** | The system shall allow Club Directors to compare two players using radar charts]. | **Must** |
+| **FR-06** | The system shall allow Talent Scouts to view their previously submitted scouting reports]. | **Should** |
+| **FR-07** | The system shall allow Administrators to manage user accounts , roles]. | **Should** |
+| **FR-08** | The system shall allow Club Directors to sort player search results by performance ratings]. | **Could** |
 
 #### Non-Functional Requirements
 
 | ID | Category | Measurable Requirement |
 | :--- | :--- | :--- |
-| **NFR-01** | **Performance** | The system shall [شرح المعيار المباشر والقابل للقياس، مثل زمن الاستجابة بالثواني]. |
-| **NFR-02** | **Usability** | The system shall [شرح المعيار المباشر والقابل للقياس، مثل الوقت المستغرق لإتمام مهمة]. |
-| **NFR-03** | **Security** | The system shall [شرح المعيار المباشر والقابل للقياس، مثل نوع التشفير أو التوثيق]. |
+| **NFR-01** | **Performance** | The system shall display player search results within 3 seconds using the agreed demonstration dataset]. |
+| **NFR-02** | **Usability** | The system shall allow at least 4 out of 5 test users to complete a scouting report within 5 minutes without assistance]. |
+| **NFR-03** | **Security** | The system shall block unauthorized access to administrator functions in 100% of the defined access-control test cases]. |
 
 
 
 
 ***4.7 Development Approach***
 -
-[شرح المنهجية المختارة في فقرة أو فقرتين - مثل Agile أو Hybrid].
+Our team will use the Incremental Development approach because it allows us to build the Global Football Scouting & Analytics Platform in small, manageable stages. Since some requirements may change based on user feedback, this approach allows us to improve features without affecting the entire system. We will collect feedback from potential users, such as Talent Scouts and Club Directors, after testing each increment.
 
-How we use GitHub for collaboration:
-[أكتب هنا طريقة العمل الجماعي على GitHub، مثل إنشاء الـ Branches، واستخدام الـ Pull Requests والـ Issues لتتبع المهام].
-
+In the first increment, we will develop user authentication and player search using simulated data. In the second increment, we will implement standardized scouting reports and store player evaluations. In the third increment, we will develop player comparison using radar charts and test the main workflows. We will reuse React, Tailwind CSS, Chart.js, Node.js, and Express to save development time. This approach helps our three-student team manage the semester schedule, reduce technical risks, and deliver a working prototype.
 
 
 
 ***4.8 Team Plan and Risks***
 -
 
-
 #### Team Coordinator Roles
-* **Process and Project Coordinator:** [اسم الطالب] - [شرح مختصر للمسؤوليات وقيادة الـ GitHub Workflow].
-* **Requirements and Design Coordinator:** [اسم الطالب] - [شرح مختصر لمسؤوليات المتطلبات وتصميم الواجهات].
-* **Implementation and Quality Coordinator:** [اسم الطالب] - [شرح مختصر لمسؤوليات الكود واختبار جودة النظام].
+Process and Project Coordinator: Salman Yaqoub Yousef – Responsible for managing project progress, organizing team tasks, monitoring deadlines, and coordinating the GitHub workflow, including branches, pull requests, and merges.
+
+Requirements and Design Coordinator: Fahad Ahmad Almutairi – Responsible for organizing functional and non-functional requirements, coordinating system design, and planning user interfaces for player searching, scouting reports, and player comparison.
+
+Implementation and Quality Coordinator: Saad Khaled Saad – Responsible for coordinating system implementation, integrating the database and radar charts, testing system features, and ensuring software quality.
+
+All team members will contribute to requirements, design, implementation, testing, and documentation.
 
 #### Milestone Plan
 
 | Milestone | Main Planned Output | Coordinator |
 | :--- | :--- | :--- |
-| **1. Proposal** | [المخرج الرئيسي للمرحلة الأولى] | Process & Project Coordinator |
-| **2. Requirements & Models** | [المخرج الرئيسي للمرحلة الثانية] | Requirements & Design Coordinator |
-| **3. Design & Initial Prototype** | [المخرج الرئيسي للمرحلة الثالثة] | Implementation & Quality Coordinator |
-| **4. Final Prototype & Testing** | [المخرج الرئيسي للمرحلة الرابعة] | All Team Members |
+| **1. Proposal** | [Project proposal including the problem, proposed solution, and initial requirements.] | Process & Project Coordinator |
+| **2. Requirements & Models** | [Detailed functional and non-functional requirements, use case diagrams, and system models.] | Requirements & Design Coordinator|
+| **3. Design & Initial Prototype** | [Initial web prototype with user authentication, player search, and scouting report forms.] | Implementation & Quality |    | **4. Final Prototype & Testing** | [Completed prototype with radar chart comparisons, system testing, and final presentation.] | All Team Members |
 
 #### Project Risks
 
 | Risk | Impact | Planned Response |
-| :--- | :--- | :--- |
-| **[المخاطرة الأولى - مثل التعارض في كود GitHub]** | **High** | [الخطة المتبعة للتعامل مع الخطر] |
-| **[المخاطرة الثانية - مثل تعقيد البيانات أو الميزانية]** | **Medium** | [الخطة المتبعة للتعامل مع الخطر] |
-| **[المخاطرة الثالثة - مثل الأداء أو الواجهات]** | **Medium** | [الخطة المتبعة للتعامل مع الخطر] |
-
-
-
-
+| GitHub merge conflicts | High   | Use separate branches and review changes before merging. |
+| Incorrect player data  | Medium | Check player data and use a 1–10 rating scale.           |
+| Radar chart problems   | Medium | Test charts early and fix any errors.                    |
 ***4.9 Sources, AI Use, and Contributions***
 -
-
-
 #### Sources & References
-1. [المصدر الأول - اسم المنصة أو الكتاب الرابط]
-2. [المصدر الثاني - اسم المنصة أو الكتاب الرابط]
-3. [المصدر الثالث - اسم المرجع الأكاديمي]
+
+Wyscout: https://wyscout.com/
+BePro Football: https://www.bepro.ai/
+React: https://react.dev/
+Tailwind CSS: https://tailwindcss.com/
+Chart.js: https://www.chartjs.org/
+Node.js: https://nodejs.org/
+Express: https://expressjs.com/
+
+AI Use
+
+We used ChatGPT to help organize project ideas, write initial requirements, and improve our documentation. The team reviewed and revised the AI-generated content to ensure it matched our project requirements.
 
 #### Generative AI Disclosure
-* **Tool Used:** [اسم أداة الذكاء الاصطناعي]
-* **How it was used:** [شرح كيف ساعدت الأداة في تحسين الصياغة أو تنظيم المستند]
-* **Verification and Revision:** [شرح كيف قام الفريق بمراجعة وتعديل المخرجات والتأكد من صحتها]
+* **Tool Used:** [ChatGPT (OpenAI)]
+* **How it was used:** [To organize project ideas, improve writing, and help draft initial requirements.]
+* **Verification and Revision:** [The team reviewed and edited the content to ensure it matched the project requirements.]
 
 #### GitHub Team Contributions
 
+Salman Yaqoub Yousef: Project planning, problem description, and GitHub management.
+Saad Khaled Saad: Requirements analysis, system design, and documentation.
+Fahad Ahmad Almutairi: Functional and non-functional requirements, development planning, and project risks.
 
-* **[اسم الطالب الأول]:** [توضيح المساهمات الفعلية والـ Commits التي قام بها في المستودع]
-* **[اسم الطالب الثاني[توضيح المساهمات الفعلية والـ Commits التي قام بها في المستودع]
-* **[اسم الطالب الثالث]:** [توضيح المساهمات الفعلية والـ Commits التي قام بها في المستودع]
-
+All team members will contribute to the project through GitHub commits and participate in development and testing.]
 ***
