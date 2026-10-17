@@ -214,9 +214,9 @@ We used ChatGPT to help organize project ideas, write initial requirements, and 
 
 #### GitHub Team Contributions
 
-* Salman Yaqoub Yousef: Project planning, problem description, and GitHub management.
-* Saad Khaled Saad: Requirements analysis, system design, and documentation.
-* Fahad Ahmad Almutairi: Functional and non-functional requirements, development planning, and project risks.
+* ***Salman Yaqoub Yousef:*** Project planning, problem description, and GitHub management.
+* ***Saad Khaled Saad:*** Requirements analysis, system design, and documentation.
+* ***Fahad Ahmad Almutairi:*** Functional and non-functional requirements, development planning, and project risks.
 
 All team members will contribute to the project through GitHub commits and participate in development and testing.]
 ***
