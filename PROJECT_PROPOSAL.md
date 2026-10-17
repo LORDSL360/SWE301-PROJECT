@@ -16,18 +16,21 @@
 
 
 ***One sentence project summary:***
-A centralized scouting platform that enables clubs and scouts to easily discover and compare players worldwide through data driven insights
+A global scouting network which puts at the clubs and scouts’ fingertips the tool to find and compare players from around the world via data analytics.
 
 
 
 ***4.2  Problems and Users***
 -
 
-Scouting football talent across different leagues today is still a messy and disconnected process. Clubs and independent scouts rely on a mix of scattered video clips, manual notes and spreadsheets to track players. Analysts spend hours jumping between different sources just to gather basic match stats and physical data. Because everyone uses different formats to rate players, reports end up being subjective and hard to compare. This slow and fragmented setup often causes communication delays, missed talent in lower divisions and bad transfer decisions that waste club budget
-this issue affects three main groups:
-.talent scouts: they need clean and structured way to write and submit match reports without dealing with multiple files and messy formats
-.Technical Directors & Club Decision-Makers: They need clear, reliable data and insights to compare target players quickly and make confident transfer choices within their budget limit
-.System administrators: they need full control over the platform to verify submitted data, manage user accounts and keep everything secure
+Scout report of football talent across various leagues is a very disjointed practice at present. Clubs and independent scouts use a mix of out of date video clips, pen and paper notes and spreadsheets to track players. Analysts spend time going back and forth between different sources just to get basic match stats and physical data. Due to the fact that everyone uses different systems to rate players reports come out subjective and hard to compare. This slow and fragmented system also causes delay in communication, we miss out on talent in lower divisions and we see bad transfer decisions which in turn waste club budget.
+
+***this issue affects three main groups:***
+-
+
+* ***talent scouts:*** They require a simple and organized way to submit match reports which is free of multiple files and messy formats.
+* ***Technical Directors & Club Decision-Makers:*** They require precise and trusted data which allows them to compare target players easily and within the budget to make sure their transfer choices are confident.
+* ***System administrators:*** They require complete control over the platform to check in on submitted data, manage user accounts and keep it secure.
 
 
 
@@ -60,17 +63,17 @@ After comparing these options, we noticed two main issues: existing platforms ei
 ***4.4 Proposed Solution and Justification***
 -
 
-Our proposed solution is a centralized web platform built to make football recruitment simpler, faster, and more organized. The system allows Talent Scouts to fill out clean, standardized report forms, while Technical Directors & Club Decision-Makers can search, filter, and compare player stats using visual radar charts.
+Our put forth solution is a central web based platform which we have designed to improve and simplify football recruitment. We have created a system which which Talent Scouts use to fill out clean, standardized report forms and also Technical Directors and Club Decision Makers which they in turn use to search, filter and compare player stats via visual radar charts.
 
-This system directly fixes the issues found in current processes and market tools:
+This system improves on present processes and markets tools:
 
-***Improving the Current Process:*** Instead of relying on loose spreadsheets and scattered video links, our platform keeps everything in a single database. This makes player data searchable in seconds, uses a clear 1–10 rating scale, and keeps a clean history of all scouting reports.
+***Improving the Current Process:*** Instead we have done away with the use of loose spreadsheets and separate video links which is what our platform does. We have put it all into one database. This which in turn makes player data search friendly in seconds, we use a 1 to 10 rating scale for clarity and also we have a clean history of all scouting reports.
 
-***Fixing Market Limitations:*** High-end platforms like Wyscout are often too expensive and full of complex features that smaller clubs do not need. Our platform offers an affordable, easy-to-use alternative that focuses strictly on talent comparison and recruitment choices.
+***Fixing Market Limitations:*** High cost of which Wyscout and similar platforms may be out of reach for some and also are very feature rich in a way which smaller clubs do not require. Our platform is a more affordable and simple option that we put forward for talent comparison and recruitment.
 
-***Feasibility for a 3-Student Team:*** Building a massive live video platform in one semester is impossible for three students. To keep the workload realistic, our prototype will use structured mock datasets (PostgreSQL/JSON) and open-source chart components. This allows our team to focus entirely on perfecting the core workflows: entering scout reports, filtering players, and displaying side-by-side radar charts.
+***Feasibility for a 3-Student Team:*** In a short semester to build out a large scale live video platform with three of us is a no go. We went with structured mock datasets (PostgreSQL/JSON) and open source chart components for the prototype which in turn allows our team to put all our effort into the core features  putting together scout reports, player filtering, and out put of side by side radar charts.
 
-***Reused Libraries and Components:*** To speed up development and avoid recreating standard UI elements, we will use React and Tailwind CSS for the front-end, Chart.js (or Recharts) for rendering radar visual graphs, and Node.js with Express for building our backend APIs.
+***Reused Libraries and Components:*** To increase the pace of development and to avoid reinventing the wheel with standard UI elements we will use React and Tailwind CSS for the front end, Chart.js (or Recharts) for the rendering of radar visual graphs, and Node.js with Express for our backend APIs.
 
 
 
@@ -85,18 +88,18 @@ This system directly fixes the issues found in current processes and market tool
 ***What the semester prototype will include:***
 
  * Authentication and role-based access control (Scout, Analyst, Club Director, Admin).
- * Standardized scout reporting form and review interface.
- * Advanced search and filtering engine for emerging players.
- * Interactive radar charts for side-by-side player comparison.
+ * Standardized scout report form and review interface.
+ * Advanced search and filtering tools for new players.
+ * Interactive radial charts for comparing players side by side.
  *  VSimulated database using PostgreSQL.
 
 
 ***2. Out of scope (future releases)***
 
 *  What the team will not attempt this semester:
-*  Live video upload, streaming, and AI video tracking.
-*  Integration with real-time paid commercial football data APIs.
-*  Financial contract management and direct club transfer negotiations.
+*  Live stream upload, streaming, and AI video tracking.
+*  Integration with real time paid commercial football data.
+*  Financial agreement administration and direct player transfers.
 
 
 
@@ -106,21 +109,21 @@ This system directly fixes the issues found in current processes and market tool
 -
 ***Main actor and goal:*** Talent Scout: Searches for a young emerging player (under 21) whose metrics indicate a "A rising talent" status.
 
-***Expected outcome:*** A filtered list of promising players appears with brief summary statistics.
+***Expected outcome:*** A listing of the best players that meets our filters along with brief stats.
 
 
 ***Workflow 2:*** Submit a scout report
 -
 ***Main actor and goal:*** Talent Scout: Fills out a standardized field evaluation form for a specific player after performance observation.
 
-***Expected outcome:*** The report is saved to the database and linked to the player profile for decision-makers to view instantly.
+***Expected outcome:*** The report goes into the database and is associated with the player profile for immediate access by decision makers.
 
 
 ***Workflow 3:*** Compare players and decide
 -
-***Main actor and goal:*** Club Director: Selects two emerging players to compare their attributes before recommending a transfer.
+***Main actor and goal:*** Club Director: Reports on two up and coming players in terms of their attributes which in turn will inform the recommendation for a transfer.
 
-***Expected outcome:*** The system displays a side-by-side radar chart highlighting the strengths and weaknesses of each player.
+***Expected outcome:*** The system presents a comparison of each player’s strengths and weaknesses in a side by side radar chart.
 
 
 
@@ -157,21 +160,20 @@ This system directly fixes the issues found in current processes and market tool
 
 ***4.7 Development Approach***
 -
-Our team will use the Incremental Development approach because it allows us to build the Global Football Scouting & Analytics Platform in small, manageable stages. Since some requirements may change based on user feedback, this approach allows us to improve features without affecting the entire system. We will collect feedback from potential users, such as Talent Scouts and Club Directors, after testing each increment.
+Our team is going with the Incremental Development approach which we see as a way to roll out the Global Football Scouting  Analytics Platform in small manageable steps. Also we have it that some requirements may change as we get user feedback and this is what the incremental approach is for  to improve features without putting the whole system at risk. We will get input from what we present to groups of users like Talent Scouts and Club Directors after we release each increment.
 
-In the first increment, we will develop user authentication and player search using simulated data. In the second increment, we will implement standardized scouting reports and store player evaluations. In the third increment, we will develop player comparison using radar charts and test the main workflows. We will reuse React, Tailwind CSS, Chart.js, Node.js, and Express to save development time. This approach helps our three-student team manage the semester schedule, reduce technical risks, and deliver a working prototype.
-
-
+In the first phase we will develop user authentication and player search using simulated data. In the second phase we will put in the standardized scouting reports and put away player evaluations. In the third phase we will develop player comparison which will use radar charts also we will test the main workflows. We will use React, Tailwind CSS, Chart.js, Node.js and Express to save development time. This approach we use allows our team of three students to manage the semester schedule, to reduce technical risks and to present a working prototype.
 
 ***4.8 Team Plan and Risks***
 -
 
 #### Team Coordinator Roles
-Process and Project Coordinator: Salman Yaqoub Yousef – Responsible for managing project progress, organizing team tasks, monitoring deadlines, and coordinating the GitHub workflow, including branches, pull requests, and merges.
 
-Requirements and Design Coordinator: Fahad Ahmad Almutairi – Responsible for organizing functional and non-functional requirements, coordinating system design, and planning user interfaces for player searching, scouting reports, and player comparison.
+* Process and Project Coordinator: ***Salman Yaqoub Yousef*** – Responsible for managing project progress, organizing team tasks, monitoring deadlines, and coordinating the GitHub workflow, including branches, pull requests, and merges.
 
-Implementation and Quality Coordinator: Saad Khaled Saad – Responsible for coordinating system implementation, integrating the database and radar charts, testing system features, and ensuring software quality.
+* Requirements and Design Coordinator: ***Fahad Ahmad Almutairi*** – Responsible for organizing functional and non-functional requirements, coordinating system design, and planning user interfaces for player searching, scouting reports, and player comparison.
+
+* Implementation and Quality Coordinator: ***Saad Khaled Saad*** – Responsible for coordinating system implementation, integrating the database and radar charts, testing system features, and ensuring software quality.
 
 All team members will contribute to requirements, design, implementation, testing, and documentation.
 
@@ -195,13 +197,13 @@ All team members will contribute to requirements, design, implementation, testin
 -
 #### Sources & References
 
-Wyscout: https://wyscout.com/
-BePro Football: https://www.bepro.ai/
-React: https://react.dev/
-Tailwind CSS: https://tailwindcss.com/
-Chart.js: https://www.chartjs.org/
-Node.js: https://nodejs.org/
-Express: https://expressjs.com/
+* ***Wyscout:*** https://wyscout.com/
+* ***BePro Football:*** https://www.bepro.ai/
+* ***React:*** https://react.dev/
+* ***Tailwind CSS:*** https://tailwindcss.com/
+* ***Chart.js:*** https://www.chartjs.org/
+* ***Node.js:*** https://nodejs.org/
+* ***Express:*** https://expressjs.com/
 
 ***AI Use***
 
