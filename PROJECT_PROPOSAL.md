@@ -185,10 +185,12 @@ All team members will contribute to requirements, design, implementation, testin
 
 #### Project Risks
 
-| Risk | Impact | Planned Response |
-| GitHub merge conflicts | High   | Use separate branches and review changes before merging. |
-| Incorrect player data  | Medium | Check player data and use a 1–10 rating scale.           |
-| Radar chart problems   | Medium | Test charts early and fix any errors.                    |
+* | Risk | Impact | Planned Response |
+* | GitHub merge conflicts | High   | Use separate branches and review changes before merging. |
+* | Incorrect player data  | Medium | Check player data and use a 1–10 rating scale.           |
+* | Radar chart problems   | Medium | Test charts early and fix any errors.                    |
+
+
 ***4.9 Sources, AI Use, and Contributions***
 -
 #### Sources & References
