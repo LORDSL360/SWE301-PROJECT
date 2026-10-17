@@ -203,7 +203,7 @@ Chart.js: https://www.chartjs.org/
 Node.js: https://nodejs.org/
 Express: https://expressjs.com/
 
-AI Use
+***AI Use***
 
 We used ChatGPT to help organize project ideas, write initial requirements, and improve our documentation. The team reviewed and revised the AI-generated content to ensure it matched our project requirements.
 
