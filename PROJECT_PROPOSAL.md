@@ -8,9 +8,9 @@
 
 
 ***Project members :***
-1- Salman Yaqoub Yousef   , 2231153411 
-2- Saad Khaled Saad       , 2231162401
-3- Fahad Ahmad Almutairi  , 2231126794
+* ***1- Salman Yaqoub Yousef   , 2231153411***
+* ***2- Saad Khaled Saad       , 2231162401***
+* ***3- Fahad Ahmad Almutairi  , 2231126794***
 
 ***GitHub repository URL :*** https://github.com/LORDSL360/SWE301-PROJECT/
 
@@ -40,22 +40,22 @@ Scout report of football talent across various leagues is a very disjointed prac
 
 ***( 1 ) Current process:*** Manual spreadsheets & Messaging
 
-*  Useful features  low cost, familiar to traditional scouts and flexible free text notes.
-*  Limitation for your Users  Disjointed data, lack of visual comparisons, high risk of duplicate report, no standardized metric scaling.
-*  Source  Field Interviews & Industry observation.
+*  ***Useful features:*** low cost, familiar to traditional scouts and flexible free text notes.
+*  ***Limitation for your Users:*** Disjointed data, lack of visual comparisons, high risk of duplicate report, no standardized metric scaling.
+*  ***Source:*** Field Interviews & Industry observation.
 
 
 ***( 2 ) Existing Solution 1:*** Wyscout
 
- *   Useful features : Massive global video database, comprehensive player statistical coverage. 
- *   Limitation for your Users : High subscription cost for lower tier and regional clubs, complex interface and lacks customized internal club report workflows
- *   Source : https://wyscout.com/
+ *   ***Useful features:*** Massive global video database, comprehensive player statistical coverage. 
+ *   ***Limitation for your Users:*** High subscription cost for lower tier and regional clubs, complex interface and lacks customized internal club report workflows
+ *   ***Source:*** https://wyscout.com/
 
 ***( 3 ) Existing Solution 2:*** BePro Football
 
-*   Useful features : High-quality tactical match video processing and automated event tracking.
-*   Limitation for your Users : focused primarily on team's own match analysis rather than global player scouting and cross league recruitment.
-*   Source : https://www.google.com/search?q=https://www.beproscore.com
+*   ***Useful features:*** High-quality tactical match video processing and automated event tracking.
+*   ***Limitation for your Users:*** focused primarily on team's own match analysis rather than global player scouting and cross league recruitment.
+*   ***Source:*** https://www.google.com/search?q=https://www.beproscore.com
 
 After comparing these options, we noticed two main issues: existing platforms either way too expensive for smaller clubs or they focus heavily on match analysis instead of scouting new talent. Our platform fills this gap by combining easy to use scouting on match analysis forms with simple visual charts(like radar graphs) so club can quickly compare players and make practical recruitment choices without breaking their budget.
 
@@ -96,7 +96,8 @@ This system improves on present processes and markets tools:
 
 ***2. Out of scope (future releases)***
 
-*  What the team will not attempt this semester:
+***What the team will not attempt this semester:***
+
 *  Live stream upload, streaming, and AI video tracking.
 *  Integration with real time paid commercial football data.
 *  Financial agreement administration and direct player transfers.
@@ -169,11 +170,17 @@ In the first phase we will develop user authentication and player search using s
 
 #### Team Coordinator Roles
 
-* Process and Project Coordinator: ***Salman Yaqoub Yousef*** – Responsible for managing project progress, organizing team tasks, monitoring deadlines, and coordinating the GitHub workflow, including branches, pull requests, and merges.
+ Process and Project Coordinator:
+-
+***Salman Yaqoub Yousef*** – Responsible for managing project progress, organizing team tasks, monitoring deadlines, and coordinating the GitHub workflow, including branches, pull requests, and merges.
 
-* Requirements and Design Coordinator: ***Fahad Ahmad Almutairi*** – Responsible for organizing functional and non-functional requirements, coordinating system design, and planning user interfaces for player searching, scouting reports, and player comparison.
+ Requirements and Design Coordinator:
+-
+***Fahad Ahmad Almutairi*** – Responsible for organizing functional and non-functional requirements, coordinating system design, and planning user interfaces for player searching, scouting reports, and player comparison.
 
-* Implementation and Quality Coordinator: ***Saad Khaled Saad*** – Responsible for coordinating system implementation, integrating the database and radar charts, testing system features, and ensuring software quality.
+ Implementation and Quality Coordinator:
+-
+***Saad Khaled Saad*** – Responsible for coordinating system implementation, integrating the database and radar charts, testing system features, and ensuring software quality.
 
 All team members will contribute to requirements, design, implementation, testing, and documentation.
 
