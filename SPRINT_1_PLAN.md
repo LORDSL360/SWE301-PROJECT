@@ -11,7 +11,7 @@
 - Fahad Ahmad Almutairi – Requirements & Design Coordinator
 
 **GitHub Repository:** https://github.com/LORDSL360/SWE301-PROJECT  
-**GitHub Project Board:** [Add your GitHub Project URL here]
+**GitHub Project Board:** https://github.com/users/LORDSL360/projects/1
 
 **Sprint 1 Dates:** 15 November 2026 – 28 November 2026
 
