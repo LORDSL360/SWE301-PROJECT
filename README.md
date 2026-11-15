@@ -1,16 +1,15 @@
-***Project Name : Global Football Scouting & Analytics Platform***
+# Global Football Scouting & Analytics Platform
 
-Team ( Group F )
--
+## Team – Group F
 
-***Project members :***
--
-* ***1- Salman Yaqoub Yousef   , 2231153411***
+### Project Members
+1. **Salman Yaqoub Yousef** – Process & Project Coordinator
+2. **Saad Khaled Saad** – Implementation & Quality Coordinator
+3. **Fahad Ahmad Almutairi** – Requirements & Design Coordinator
 
-* ***2- saad khaled saad       , 2231162401***
+## Project Documentation
 
-* ***3- Fahad Ahmad Almutairi  , 2231126794***
+- [Project Proposal](PROJECT_PROPOSAL.md)
+- [Sprint 1 Plan](SPRINT_1_PLAN.md)
+- [GitHub Project Board](PUT_YOUR_PROJECT_BOARD_URL_HERE)
 
-
-
-***project proposal link : https://github.com/LORDSL360/SWE301-PROJECT/blob/main/PROJECT_PROPOSAL***
