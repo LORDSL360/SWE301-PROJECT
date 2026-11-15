@@ -45,3 +45,4 @@ Establish the initial platform foundation by implementing user authentication, p
 - **Salman Yaqoub Yousef:** Lead user login implementation, coordinate sprint activities, and review project documentation.
 - **Fahad Ahmad Almutairi:** Lead player search and filtering implementation and review requirements.
 - **Saad
+
