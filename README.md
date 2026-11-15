@@ -3,9 +3,9 @@
 ## Team – Group F
 
 ### Project Members
-1. **Salman Yaqoub Yousef** – Process & Project Coordinator
-2. **Saad Khaled Saad** – Implementation & Quality Coordinator
-3. **Fahad Ahmad Almutairi** – Requirements & Design Coordinator
+1. **Salman Yaqoub Yousef** 
+2. **Saad Khaled Saad** 
+3. **Fahad Ahmad Almutairi** 
 
 ## Project Documentation
 
