@@ -11,5 +11,5 @@
 
 - [Project Proposal](PROJECT_PROPOSAL.md)
 - [Sprint 1 Plan](SPRINT_1_PLAN.md)
-- [GitHub Project Board](PUT_YOUR_PROJECT_BOARD_URL_HERE)
+- [GitHub Project Board](https://github.com/users/LORDSL360/projects/1)
 
