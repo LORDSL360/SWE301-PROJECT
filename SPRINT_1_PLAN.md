@@ -44,5 +44,6 @@ Establish the initial platform foundation by implementing user authentication, p
 
 - **Salman Yaqoub Yousef:** Lead user login implementation, coordinate sprint activities, and review project documentation.
 - **Fahad Ahmad Almutairi:** Lead player search and filtering implementation and review requirements.
-- **Saad
+- **Saad Khaled Saad:** Lead search performance testing, document test results, and review implementation quality.
 
+All team members will contribute to reviewing and validating the sprint deliverables.
