@@ -1,11 +1,16 @@
-# Global Football Scouting & Analytics Platform
+***Project Name : Global Football Scouting & Analytics Platform***
 
-## Team – Group F
+Team ( Group F )
+-
 
-### Project Members
-1. **Salman Yaqoub Yousef** 
-2. **Saad Khaled Saad** 
-3. **Fahad Ahmad Almutairi** 
+***Project members :***
+-
+* ***1- Salman Yaqoub Yousef   , 2231153411***
+
+* ***2- saad khaled saad       , 2231162401***
+
+* ***3- Fahad Ahmad Almutairi  , 2231126794***
+
 
 ## Project Documentation
 
